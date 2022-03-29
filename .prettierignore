@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+dist/
+/src/wp-gutenberg-block-gallery/build
+/src/wp-gutenberg-block-video/build
+/src/wp-plugin/src/admin/assets
+/src/wp-plugin/src/admin/blocks/gallery
+/src/wp-plugin/src/admin/blocks/video
+/src/wp-plugin/src/public/assets

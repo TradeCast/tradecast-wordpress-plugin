@@ -94,7 +94,7 @@ class Tradecast_Admin
         // enqueue the admin script
         wp_enqueue_script(
             $this->plugin_name,
-            plugin_dir_url(__FILE__) . 'assets/tradecast-admin.umd.js',
+            plugin_dir_url(__FILE__) . 'assets/tradecast-admin.umd.min.js',
             [],
             $this->version,
             true

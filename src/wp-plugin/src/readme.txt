@@ -1,13 +1,14 @@
 === Tradecast ===
 Author URI: https://www.kiener.nl
 Plugin URI: https://www.tradecast.tv
-Donate link:
+Donate link: https://www.tradecast.tv
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: tradecast, video, platform
 Tested up to: 5.9
 Stable tag: 1.0.0
 Requires PHP: 7.1
+Repository URI: https://github.com/TradeCast/tradecast-wordpress-plugin
 
 == Description ==
 
