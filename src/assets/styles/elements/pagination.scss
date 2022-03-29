@@ -1,0 +1,22 @@
+div.tradecast-pagination {
+  margin-top: 15px;
+
+  span.page {
+    background: $gray-light;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 0.25rem 0.4rem;
+
+    &.current {
+      background: $primary;
+      color: $white;
+    }
+
+    &:not(.divider):hover {
+      background: $primary-hover;
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}

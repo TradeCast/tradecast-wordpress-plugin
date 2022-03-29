@@ -1,0 +1,17 @@
+div.tradecast-collapse {
+  div.title {
+    cursor: pointer;
+
+    input[type='checkbox'] {
+      margin-right: 12px;
+    }
+
+    span.dashicons {
+      color: $gray-dark;
+      float: right;
+    }
+  }
+  div.collapsed {
+    display: none;
+  }
+}

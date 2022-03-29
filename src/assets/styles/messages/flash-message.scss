@@ -1,0 +1,27 @@
+div.tradecast-flash-message-container {
+  margin-top: 0.25rem;
+
+  div.tradecast-flash-message {
+    display: block;
+    margin: 2px auto;
+    padding: 0.5rem 1rem;
+
+    &.success {
+      background-color: $success;
+      color: #fff;
+    }
+
+    &.danger,
+    &.error,
+    &.failure {
+      background-color: $danger;
+      color: #fff;
+    }
+
+    span.icon-close-flash-message {
+      cursor: pointer;
+      float: right;
+      margin: 0;
+    }
+  }
+}

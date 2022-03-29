@@ -1,0 +1,97 @@
+div.tradecast-galleries-overview-container {
+  button.button-primary.add-gallery {
+    float: right;
+    margin: 0.5rem 0 0 0;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  table.galleries {
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
+  }
+
+  tr {
+    &.is-inaccessible {
+      td.column-icon,
+      td.column-title {
+        color: $danger-hover !important;
+        font-weight: bold;
+      }
+    }
+  }
+
+  th,
+  td {
+    vertical-align: middle;
+
+    &.column-icon {
+      display: none;
+
+      @media screen and (min-width: $max-width-phablet) {
+        display: table-cell;
+      }
+    }
+
+    &.column-actions,
+    &.column-icon {
+      width: 30px;
+    }
+
+    &.column-type {
+      width: 100px;
+    }
+
+    &.column-author {
+      display: none;
+      width: 150px;
+
+      @media screen and (min-width: $max-width-phablet) {
+        display: table-cell;
+      }
+    }
+
+    &.column-shortcode {
+      display: none;
+
+      @media screen and (min-width: $max-width-phablet) {
+        display: table-cell;
+      }
+
+      input {
+        max-width: 275px;
+        width: calc(100% - 36px);
+      }
+
+      span {
+        cursor: pointer;
+        margin-left: 4px;
+        line-height: 30px;
+
+        &:active {
+          color: $primary;
+        }
+
+        &:hover {
+          color: $primary-hover;
+        }
+      }
+    }
+
+    &.column-actions {
+      span.delete-gallery {
+        cursor: pointer;
+
+        &:hover {
+          color: $danger-hover;
+        }
+
+        &:active {
+          color: $danger;
+        }
+      }
+    }
+  }
+}

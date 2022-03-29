@@ -1,0 +1,36 @@
+{
+  "name": "tradecast-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tradecast Gallery",
+  "author": "Kiener Digital Commerce",
+  "license": "LicenseRef-LICENSE",
+  "keywords": [
+    "WordPress",
+    "block",
+    "tradecast",
+    "gallery"
+  ],
+  "homepage": "https://www.kiener.nl",
+  "repository": {
+    "type": "git"
+  },
+  "main": "build/index.js",
+  "devDependencies": {
+    "@wordpress/api-fetch": "^5.2.6",
+    "@wordpress/block-editor": "^7.0.2",
+    "@wordpress/blocks": "^11.1.0",
+    "@wordpress/components": "^19.2.0",
+    "@wordpress/core-data": "^4.0.9",
+    "@wordpress/data": "^6.1.5",
+    "@wordpress/i18n": "^4.2.2",
+    "@wordpress/scripts": "^18.0.1"
+  },
+  "scripts": {
+    "build": "wp-scripts build --output-path=../wp-plugin/src/admin/blocks/gallery && cp block.json ../wp-plugin/src/admin/blocks/gallery && cp style.css ../wp-plugin/src/admin/blocks/gallery/style.css",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  }
+}

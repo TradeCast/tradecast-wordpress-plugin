@@ -1,0 +1,68 @@
+div.tradecast-confirm-dialog-container {
+  div.tradecast-confirm-dialog-backdrop {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+  }
+
+  div.display-none {
+    display: none;
+  }
+
+  div.tradecast-confirm-dialog {
+    background-color: #f6f7f7;
+    border-radius: 15px;
+    box-shadow: $box-shadow;
+    cursor: default;
+    flex: 1;
+    height: max-content;
+    margin: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+
+    h2 {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    span.icon-close-dialog {
+      cursor: pointer;
+      float: right;
+      font-size: 1.5rem;
+    }
+
+    div.header {
+      box-shadow: $box-shadow;
+      padding: 1.1rem 1.5rem;
+      z-index: 1;
+    }
+
+    div.content {
+      padding: 2rem 1.5rem;
+      z-index: 0;
+    }
+
+    div.footer {
+      box-shadow: $box-shadow;
+      padding: 1.1rem 1rem;
+      text-align: right;
+      z-index: 1;
+
+      button {
+        margin-left: 4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+div.tradecast-splash-screen-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  div.tradecast-splash-screen {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 25px;
+    max-height: 650px;
+    max-width: 650px;
+    position: relative;
+    width: 100%;
+
+    &::before {
+      bottom: 10%;
+      content: '';
+      background: url('../../images/tradecast-logo.svg') no-repeat center center;
+      background-size: contain;
+      left: 10%;
+      position: absolute;
+      right: 10%;
+      top: 10%;
+      opacity: 0.1;
+      z-index: 0;
+    }
+
+    div.content {
+      padding: 2rem 1.5rem;
+      text-align: center;
+      z-index: 1;
+
+      a,
+      a:link {
+        color: $black;
+        font-weight: bold;
+      }
+
+      h2 {
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        margin: 2.5rem 0;
+      }
+    }
+  }
+}

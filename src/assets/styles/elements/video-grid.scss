@@ -1,0 +1,32 @@
+div.tradecast-video-grid {
+  position: relative;
+  min-height: 35px;
+
+  div.videos {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+
+    &.loading {
+      div.tradecast-video-card {
+        opacity: 50%;
+      }
+    }
+  }
+
+  div.loader-overlay {
+    align-content: center;
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    margin: 15px auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

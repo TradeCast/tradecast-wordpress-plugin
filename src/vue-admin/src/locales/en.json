@@ -1,0 +1,197 @@
+{
+  "buttons": {
+    "generic": {
+      "yes": {
+        "label": "Yes"
+      },
+      "no": {
+        "label": "No"
+      },
+      "ok": {
+        "label": "OK"
+      },
+      "cancel": {
+        "label": "Cancel"
+      },
+      "copyShortcode": {
+        "label": "Copy shortcode"
+      },
+      "save": {
+        "label": "Save changes"
+      }
+    },
+    "galleries": {
+      "addGallery": {
+        "label": "Add gallery"
+      },
+      "deleteGallery": {
+        "label": "Delete gallery"
+      }
+    },
+    "videos": {
+      "addVideo": {
+        "label": "Add video"
+      },
+      "deleteVideo": {
+        "label": "Delete video"
+      }
+    }
+  },
+  "dialogs": {
+    "galleries": {
+      "deleteGallery": {
+        "title": "Delete?",
+        "message": "Are you sure you want to delete gallery \"{0}\"?"
+      }
+    },
+    "videos": {
+      "deleteVideo": {
+        "title": "Delete?",
+        "message": "Are you sure you want to delete video \"{0}\"?"
+      }
+    }
+  },
+  "labels": {
+    "generic": {
+      "results": "Results"
+    },
+    "galleries": {
+      "categorySelected": "1 category selected",
+      "categoriesSelected": "{0} categories selected",
+      "interestSelected": "1 interest selected",
+      "interestsSelected": "{0} interests selected"
+    }
+  },
+  "modals": {
+    "galleries": {
+      "title": "Add gallery",
+      "navigation": {
+        "categories": {
+          "label": "Categories"
+        },
+        "featured": {
+          "label": "Featured"
+        },
+        "latest": {
+          "label": "Latest"
+        },
+        "interests": {
+          "label": "Interests"
+        },
+        "popular": {
+          "label": "Popular"
+        }
+      },
+      "categories": {
+        "title": "Categories",
+        "search": {
+          "result": "1 result",
+          "results": "{0} results"
+        }
+      },
+      "featured": {
+        "name": "Featured",
+        "title": "Add featured gallery",
+        "content": "This adds a featured gallery to WordPress."
+      },
+      "interests": {
+        "title": "Interests",
+        "search": {
+          "result": "1 result",
+          "results": "{0} results"
+        }
+      },
+      "latest": {
+        "name": "Latest",
+        "title": "Add latest gallery",
+        "content": "This adds a latest gallery to WordPress."
+      },
+      "popular": {
+        "name": "Popular",
+        "title": "Add popular gallery",
+        "content": "This adds a popular gallery to WordPress."
+      }
+    },
+    "videos": {
+      "title": "Add a new video",
+      "input": {
+        "label": "Media ID or URL",
+        "placeholder": "Fill out the media ID or URL"
+      },
+      "status": {
+        "initial": "Fill out the URL or media ID of the video",
+        "found": "Media found",
+        "invalid": "Wrong ID or URL"
+      }
+    }
+  },
+  "notices": {
+    "generic": {
+      "stored": "Stored...",
+      "couldNotBeStored": "Could not be stored..."
+    },
+    "items": {
+      "notFound": "No items found..."
+    },
+    "galleries": {
+      "addGallery": {
+        "success": "Gallery \"{0}\" is added successfully.",
+        "failure": "Gallery \"{0}\" could not be added."
+      },
+      "deleteGallery": {
+        "success": "Gallery \"{0}\" is deleted successfully.",
+        "failure": "Gallery \"{0}\" could not be deleted."
+      },
+      "inaccessibleGallery": "The gallery contains items that are not available in the API"
+    },
+    "videos": {
+      "addVideo": {
+        "success": "Video \"{0}\" is added successfully.",
+        "failure": "Video \"{0}\" could not be added."
+      },
+      "deleteVideo": {
+        "success": "Video \"{0}\" is deleted successfully.",
+        "failure": "Video \"{0}\" could not be deleted."
+      },
+      "inaccessibleVideo": "The video is not available in the API"
+    }
+  },
+  "screens": {
+    "splash": {
+      "title": "Whoops, this site isn't connected to Tradecast yet",
+      "content": "To use this WordPress-plugin, it has to be connected to your Tradecast platform.<br /><br />You can configure the settings for this plugin on <a href=\"admin.php?page=tradecast-settings\">the settings page</a>."
+    }
+  },
+  "views": {
+    "galleries": {
+      "title": "Galleries",
+      "table": {
+        "columns": {
+          "gallery": "Gallery",
+          "type": "Type",
+          "author": "Author",
+          "shortcode": "Shortcode"
+        }
+      }
+    },
+    "settings": {
+      "title": "Tradecast",
+      "description": "Log in to your Tradecast CMS to find the right settings for this plugin.",
+      "input": {
+        "channelId": {
+          "label": "Channel ID"
+        }
+      }
+    },
+    "videos": {
+      "title": "Videos",
+      "table": {
+        "columns": {
+          "video": "Video",
+          "author": "Author",
+          "shortcode": "Shortcode"
+        }
+      }
+    }
+  }
+}

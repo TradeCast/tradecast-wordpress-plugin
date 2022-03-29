@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "tradecast/video",
+  "title": "Tradecast Video",
+  "textdomain": "tradecast",
+  "icon": "video-alt3",
+  "category": "media",
+  "example": {},
+  "attributes": {
+    "videoId": {
+      "type": "number",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css"
+}

@@ -1,0 +1,88 @@
+div.tradecast-videos-overview-container {
+  button.button-primary.add-video {
+    float: right;
+    margin: 0.5rem 0 0 0;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  table.videos {
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
+  }
+
+  tr {
+    &.is-inaccessible {
+      td.column-icon,
+      td.column-title {
+        color: $danger-hover !important;
+        font-weight: bold;
+      }
+    }
+  }
+
+  th,
+  td {
+    vertical-align: middle;
+
+    &.column-icon {
+      display: none;
+
+      @media screen and (min-width: $max-width-phablet) {
+        display: table-cell;
+      }
+    }
+
+    &.column-actions,
+    &.column-icon {
+      width: 30px;
+    }
+
+    &.column-author {
+      width: 150px;
+    }
+
+    &.column-shortcode {
+      display: none;
+
+      @media screen and (min-width: $max-width-phablet) {
+        display: table-cell;
+      }
+
+      input {
+        max-width: 460px;
+        width: calc(100% - 36px);
+      }
+
+      span {
+        cursor: pointer;
+        margin-left: 4px;
+        line-height: 30px;
+
+        &:active {
+          color: $primary;
+        }
+
+        &:hover {
+          color: $primary-hover;
+        }
+      }
+    }
+
+    &.column-actions {
+      span.delete-video {
+        cursor: pointer;
+
+        &:hover {
+          color: $danger-hover;
+        }
+
+        &:active {
+          color: $danger;
+        }
+      }
+    }
+  }
+}

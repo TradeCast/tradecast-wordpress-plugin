@@ -1,0 +1,32 @@
+div.tradecast-add-popular-gallery-content-container {
+  min-height: 150px;
+  padding: 1.5rem 2rem;
+  position: relative;
+
+  div.video-collapse {
+    background: $white;
+    border-radius: 5px;
+    box-shadow: $box-shadow-light;
+    margin: 10px auto;
+    padding: 1rem;
+
+    hr {
+      background: $gray-light;
+      border: 0;
+      height: 2px;
+      margin: 15px auto;
+    }
+  }
+
+  div.loader-overlay {
+    align-content: center;
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

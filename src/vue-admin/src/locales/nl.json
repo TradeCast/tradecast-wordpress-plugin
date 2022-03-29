@@ -1,0 +1,197 @@
+{
+  "buttons": {
+    "generic": {
+      "yes": {
+        "label": "Ja"
+      },
+      "no": {
+        "label": "Nee"
+      },
+      "ok": {
+        "label": "Oké"
+      },
+      "cancel": {
+        "label": "Annuleren"
+      },
+      "copyShortcode": {
+        "label": "Kopiëer shortcode"
+      },
+      "save": {
+        "label": "Wijzigingen opslaan"
+      }
+    },
+    "galleries": {
+      "addGallery": {
+        "label": "Galerij toevoegen"
+      },
+      "deleteGallery": {
+        "label": "Galerij verwijderen"
+      }
+    },
+    "videos": {
+      "addVideo": {
+        "label": "Video toevoegen"
+      },
+      "deleteVideo": {
+        "label": "Video verwijderen"
+      }
+    }
+  },
+  "dialogs": {
+    "galleries": {
+      "deleteGallery": {
+        "title": "Verwijderen?",
+        "message": "Weet je zeker dat je galerij \"{0}\" wilt verwijderen?"
+      }
+    },
+    "videos": {
+      "deleteVideo": {
+        "title": "Verwijderen?",
+        "message": "Weet je zeker dat je video \"{0}\" wilt verwijderen?"
+      }
+    }
+  },
+  "labels": {
+    "generic": {
+      "results": "Resultaten"
+    },
+    "galleries": {
+      "categorySelected": "1 categorie geselecteerd",
+      "categoriesSelected": "{0} categorieën geselecteerd",
+      "interestSelected": "1 interesse geselecteerd",
+      "interestsSelected": "{0} interesses geselecteerd"
+    }
+  },
+  "modals": {
+    "galleries": {
+      "title": "Voeg galerij toe",
+      "navigation": {
+        "categories": {
+          "label": "Categorieën"
+        },
+        "featured": {
+          "label": "Uitgelicht"
+        },
+        "latest": {
+          "label": "Nieuwste"
+        },
+        "interests": {
+          "label": "Interesses"
+        },
+        "popular": {
+          "label": "Populair"
+        }
+      },
+      "categories": {
+        "title": "Categoriën",
+        "search": {
+          "result": "1 resultaat",
+          "results": "{0} resultaten"
+        }
+      },
+      "featured": {
+        "name": "Uitgelicht",
+        "title": "Voeg uitgelichte galerij toe",
+        "content": "Dit voegt een uitgelichte galerij toe aan WordPress."
+      },
+      "interests": {
+        "title": "Interesses",
+        "search": {
+          "result": "1 resultaat",
+          "results": "{0} resultaten"
+        }
+      },
+      "latest": {
+        "name": "Nieuwste",
+        "title": "Voeg nieuwste galerij toe",
+        "content": "Dit voegt een nieuwste galerij toe aan WordPress."
+      },
+      "popular": {
+        "name": "Populair",
+        "title": "Voeg populaire galerij toe",
+        "content": "Dit voegt een populaire galerij toe aan WordPress."
+      }
+    },
+    "videos": {
+      "title": "Voeg een nieuwe video toe",
+      "input": {
+        "label": "Media ID of Url",
+        "placeholder": "Vul media ID of URL in"
+      },
+      "status": {
+        "initial": "Voeg een de URL of het media ID van de video toe",
+        "found": "Media gevonden",
+        "invalid": "Foutieve ID of URL"
+      }
+    }
+  },
+  "notices": {
+    "generic": {
+      "stored": "Opgeslagen...",
+      "couldNotBeStored": "Kon niet worden opgeslagen..."
+    },
+    "items": {
+      "notFound": "Geen items gevonden..."
+    },
+    "galleries": {
+      "addGallery": {
+        "success": "Galerij \"{0}\" is succesvol toegevoegd.",
+        "failure": "Galerij \"{0}\" kon niet worden toegevoegd."
+      },
+      "deleteGallery": {
+        "success": "Gelerij \"{0}\" is succesvol verwijderd.",
+        "failure": "Gelerij \"{0}\" kon niet worden verwijderd."
+      },
+      "inaccessibleGallery": "De galerij bevat items die niet beschikbaar zijn in de API"
+    },
+    "videos": {
+      "addVideo": {
+        "success": "Video \"{0}\" is succesvol toegevoegd.",
+        "failure": "Video \"{0}\" kon niet worden toegevoegd."
+      },
+      "deleteVideo": {
+        "success": "Video \"{0}\" is succesvol verwijderd.",
+        "failure": "Video \"{0}\" kon niet worden verwijderd."
+      },
+      "inaccessibleVideo": "De video is niet beschikbaar in de API"
+    }
+  },
+  "screens": {
+    "splash": {
+      "title": "Oeps, deze site communiceert nog niet met Tradecast",
+      "content": "Om de WordPress-plugin te gebruiken, moet 'ie verbonden zijn met jouw eigen Tradecast platform.<br /><br />Je kunt deze plugin configureren op de <a href=\"admin.php?page=tradecast-settings\">instellingen-pagina</a>."
+    }
+  },
+  "views": {
+    "galleries": {
+      "title": "Galerijen",
+      "table": {
+        "columns": {
+          "gallery": "Galerij",
+          "type": "Type",
+          "author": "Auteur",
+          "shortcode": "Shortcode"
+        }
+      }
+    },
+    "settings": {
+      "title": "Tradecast",
+      "description": "Log in op jouw Tradecast CMS om de juiste instellingen voor deze plugin te vinden.",
+      "input": {
+        "channelId": {
+          "label": "Channel ID"
+        }
+      }
+    },
+    "videos": {
+      "title": "Video's",
+      "table": {
+        "columns": {
+          "video": "Video",
+          "author": "Auteur",
+          "shortcode": "Shortcode"
+        }
+      }
+    }
+  }
+}

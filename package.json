@@ -1,0 +1,46 @@
+{
+  "name": "tradecast-wordpress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Wordpress plugin for adding Tradecast content to your site.",
+  "scripts": {
+    "build": "yarn build:admin && yarn build:front-end && yarn build:gallery-block && yarn build:video-block",
+    "build:admin": "cd src/vue-admin && yarn build",
+    "build:front-end": "cd src/vue-front-end && yarn build",
+    "build:gallery-block": "cd ./src/wp-gutenberg-block-gallery && yarn build",
+    "build:video-block": "cd ./src/wp-gutenberg-block-video && yarn build",
+    "install:all": "yarn install --check-files && yarn install:admin && yarn install:front-end && yarn install:gallery-block && yarn install:video-block && yarn link:library",
+    "install:admin": "cd src/vue-admin && yarn install --check-files",
+    "install:front-end": "cd src/vue-front-end && yarn install --check-files",
+    "install:gallery-block": "cd ./src/wp-gutenberg-block-gallery && yarn install --check-files",
+    "install:video-block": "cd ./src/wp-gutenberg-block-video && yarn install --check-files",
+    "fix-linting": "npx prettier --write \"src/**/*.(php|js|json|ts|vue)\"",
+    "lint": "npx prettier --check \"src/**/*.(php|js|json|ts|vue)\"",
+    "link:library": "cd src/vue-library && yarn link > /dev/null && cd ../vue-admin && yarn link @tradecast/library && cd ../vue-front-end && yarn link @tradecast/library",
+    "unlink:library": "cd src/vue-library && yarn unlink > /dev/null && cd ../vue-admin && yarn unlink @tradecast/library && cd ../vue-front-end && yarn unlink @tradecast/library",
+    "watch:admin": "cd src/vue-admin && yarn build --watch",
+    "watch:front-end": "cd src/vue-front-end && yarn build --watch"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "tradecast",
+    "video",
+    "wordpress"
+  ],
+  "author": {
+    "name": "Kiener Digital Commerce",
+    "email": "support@kiener.nl"
+  },
+  "license": "LicenseRef-LICENSE",
+  "homepage": "https://www.kiener.nl",
+  "require": {
+    "php": ">=7.2.5",
+    "yarn": ">=1.22.0"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.17.3",
+    "prettier": "^2.3.2"
+  }
+}

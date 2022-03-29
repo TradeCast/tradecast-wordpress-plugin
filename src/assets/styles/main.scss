@@ -1,0 +1,12 @@
+@import 'global';
+@import 'dialogs';
+@import 'elements';
+@import 'messages';
+@import 'modals';
+@import 'screens';
+@import 'views';
+
+// hides the menu item
+li.toplevel_page_tradecast-settings ul.wp-submenu li.wp-first-item {
+  display: none;
+}

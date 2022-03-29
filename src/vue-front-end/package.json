@@ -1,0 +1,57 @@
+{
+  "name": "@tradecast/front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name tradecast-front-end --inline-vue src/main.ts",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
+  },
+  "main": "dist/tradecast-public.common.js",
+  "files": [
+    "src",
+    "dist/*.{js,css}"
+  ],
+  "dependencies": {
+    "axios": "^0.24.0",
+    "browserlist": "^1.0.1",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.28.0",
+    "lodash": "^4.17.21",
+    "vue": "^3.0.0",
+    "vue-class-component": "^8.0.0-0",
+    "vue-i18n": "^9.1.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "^3.0.0",
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.178",
+    "@types/vue-i18n": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "prettier": "^2.2.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-i18n": "~2.3.1"
+  },
+  "directories": {
+    "src": "src/"
+  }
+}

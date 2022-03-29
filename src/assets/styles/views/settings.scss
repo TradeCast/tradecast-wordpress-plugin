@@ -1,0 +1,117 @@
+div.tradecast-settings-container {
+  span.label.status {
+    display: block;
+    margin-bottom: 1rem;
+    min-height: 1rem;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+
+    @media screen and (min-width: $max-width-phone) {
+      display: inline;
+      margin-bottom: 0;
+      margin-left: 8px;
+    }
+
+    &.transparent {
+      opacity: 0;
+    }
+  }
+
+  span.label.channel-id {
+    display: block;
+    font-weight: bold;
+    margin-top: 1.5rem;
+
+    @media screen and (min-width: $max-width-phone) {
+      display: inline-block;
+      margin-bottom: 2.2rem;
+      margin-right: 1.5rem;
+      margin-top: 0;
+    }
+  }
+
+  span.validate {
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    color: white;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform: translateY(-1px);
+    width: 40px;
+
+    @media screen and (min-width: $max-width-phablet) {
+      border: 1px solid transparent;
+      height: 30px;
+      line-height: 30px;
+      transform: translateY(0);
+      width: 30px;
+    }
+
+    span.icon {
+      display: none;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      width: 40px;
+
+      &::before {
+        content: '\f147' !important;
+      }
+
+      @media screen and (min-width: $max-width-phablet) {
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+      }
+    }
+
+    &.valid {
+      background-color: $success;
+      border: 1px solid $success;
+
+      span.icon {
+        display: inline-block;
+      }
+
+      + input.channel-id {
+        border: 2px solid $success;
+        border-radius: 0 2px 2px 0;
+        margin-top: 1rem;
+      }
+    }
+
+    &.invalid {
+      background-color: $danger;
+      border: 1px solid $danger;
+
+      span.icon {
+        display: inline-block;
+
+        &::before {
+          content: '\f158' !important;
+        }
+      }
+
+      + input.channel-id {
+        border: 2px solid $danger;
+        border-radius: 0 2px 2px 0;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  input.channel-id {
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    width: calc(100% - 52px);
+
+    @media screen and (min-width: $max-width-phone) {
+      margin-bottom: 0;
+      margin-top: 1rem;
+      width: auto;
+    }
+  }
+}

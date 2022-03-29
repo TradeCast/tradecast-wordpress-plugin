@@ -1,0 +1,6 @@
+{
+  "phpVersion": "7.2",
+  "printWidth": 120,
+  "singleQuote": true,
+  "braceStyle": "psr-2"
+}
