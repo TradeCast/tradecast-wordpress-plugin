@@ -29,7 +29,7 @@ if (!defined('WPINC')) {
  * Defines plugin attributes.
  */
 define('TRADECAST_PLUGIN_NAME', 'tradecast');
-define('TRADECAST_PLUGIN_VERSION', '1.0.0');
+define('TRADECAST_PLUGIN_VERSION', '1.0.1');
 
 /**
  * Handles plugin activation.
