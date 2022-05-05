@@ -47,7 +47,7 @@ class Tradecast_Public
     public function __construct()
     {
         $this->plugin_name = 'tradecast';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
 
         if (defined('TRADECAST_PLUGIN_NAME')) {
             $this->plugin_name = TRADECAST_PLUGIN_NAME . '-admin';

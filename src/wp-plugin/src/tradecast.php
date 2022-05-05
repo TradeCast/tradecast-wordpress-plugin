@@ -11,7 +11,7 @@
  * Plugin Name:       Tradecast
  * Plugin URI:        https://www.tradecast.tv
  * Description:       Add Tradecast videos and galleries to your content using this wp-plugin.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Kiener Digital Commerce
  * Author URI:        https://www.kiener.nl
  * License:           GPL-2.0+
